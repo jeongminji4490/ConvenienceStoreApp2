@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CsMenuActivity">
+
+
+    <Button
+        android:id="@+id/gsBtn"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="GS25"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/cuBtn"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="CU"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/sevenBtn"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="세븐일레븐"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/miniBtn"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="미니스톱"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

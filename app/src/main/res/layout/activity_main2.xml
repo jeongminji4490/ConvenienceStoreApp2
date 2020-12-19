@@ -28,42 +28,22 @@
         android:layout_gravity="center"
         android:text="편의점 알리미"
         android:textSize="30dp"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="100dp"/>
 
     <Button
-        android:id="@+id/gsBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:text="GS25"/>
-
-    <Button
-        android:id="@+id/cuBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="CU"/>
-
-    <Button
-        android:id="@+id/sevenBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="세븐일레븐"
+        android:id="@+id/eventBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="진행중인 행사"
         android:layout_gravity="center"/>
 
     <Button
-        android:id="@+id/miniBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="미니스톱"
+        android:id="@+id/itemBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="행사 제품"
         android:layout_gravity="center"/>
-
-    <Button
-        android:id="@+id/communityBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="커뮤니티"/>
 
 </LinearLayout>

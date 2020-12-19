@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GsEventActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="편의점 알리미"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="클릭 시 이벤트 페이지로 이동"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="GS25"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/gsevent1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:src="@drawable/gsevent2" />
+
+                    <ImageButton
+                        android:id="@+id/gsevent2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:src="@drawable/gsevent1" />
+
+                    <ImageButton
+                        android:id="@+id/gsevent3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:src="@drawable/gsevent3"/>
+
+                    <ImageButton
+                        android:id="@+id/gsevent4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:src="@drawable/gsevent4"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CU"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/cuevent1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"
+                        android:src="@drawable/cuevent1"/>
+
+                    <ImageButton
+                        android:id="@+id/cuevent2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cuevent2"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/cuevent3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/event3"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"
+                        android:scaleType="fitCenter"/>
+
+                    <ImageButton
+                        android:id="@+id/cuevent4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/event4"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="세븐일레븐"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/sevenevent1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sevenevent1"
+                        android:scaleType="fitCenter"
+                        android:background="@color/white"
+                        android:adjustViewBounds="true"/>
+
+                    <ImageButton
+                        android:id="@+id/sevenevent2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sevenevent2"
+                        android:scaleType="fitCenter"
+                        android:background="@color/white"
+                        android:adjustViewBounds="true"/>
+                    <ImageButton
+                        android:id="@+id/sevenevent3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sevenevent3"
+                        android:scaleType="fitCenter"
+                        android:background="@color/white"
+                        android:adjustViewBounds="true"/>
+                    <ImageButton
+                        android:id="@+id/sevenevent4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sevenevent4"
+                        android:scaleType="fitCenter"
+                        android:background="@color/white"
+                        android:adjustViewBounds="true"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미니스톱"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/minievent1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/minievent1"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"/>
+
+                    <ImageButton
+                        android:id="@+id/minievent2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/minievent2"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"/>
+
+                    <ImageButton
+                        android:id="@+id/minievent3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/minievent3"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

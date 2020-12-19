@@ -15,7 +15,7 @@ import androidx.appcompat.widget.Toolbar;
 public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
-    Button gsBtn,cuBtn,sevenBtn,miniBtn;
+    Button eventBtn,itemBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,45 +23,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         toolbar=(Toolbar)findViewById(R.id.toolbar);
-        gsBtn=(Button)findViewById(R.id.gsBtn);
-        cuBtn=(Button)findViewById(R.id.cuBtn);
-        sevenBtn=(Button)findViewById(R.id.sevenBtn);
-        miniBtn=(Button)findViewById(R.id.miniBtn);
+        eventBtn=(Button)findViewById(R.id.eventBtn);
+        itemBtn=(Button)findViewById(R.id.itemBtn);
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false); //프로젝트 타이틀 삭제
 
-        gsBtn.setOnClickListener(new View.OnClickListener() {
+        eventBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,GsMenuActivity.class);
+                Intent intent=new Intent(MainActivity.this,GsEventActivity.class);
                 startActivity(intent);
             }
         });
 
-        cuBtn.setOnClickListener(new View.OnClickListener() {
+        itemBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CuMenuActivity.class);
+                Intent intent=new Intent(MainActivity.this,CsMenuActivity.class);
                 startActivity(intent);
             }
         });
 
-        sevenBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,SevenMenuActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        miniBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,MiniMenuActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 
     @Override
