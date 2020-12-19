@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="로그인"
+        android:layout_marginTop="150dp"
+        android:textSize="50dp"/>
+
+    <EditText
+        android:id="@+id/EditID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="75dp"
+        android:hint="ID                                          "
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/EditPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="75dp"
+        android:textSize="20dp"
+        android:hint="password                             "/>
+
+    <Button
+        android:id="@+id/OkBtn"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="OK"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="92dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/findID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="아이디/패스워드 찾기"/>
+
+        <TextView
+            android:id="@+id/joinText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="/"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/joinBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>
