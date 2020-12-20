@@ -17,6 +17,7 @@
         android:textSize="50dp"/>
 
     <EditText
+        android:id="@+id/name_join"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="이름"
@@ -25,6 +26,7 @@
         android:textSize="15dp"/>
 
     <EditText
+        android:id="@+id/phone_join"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="휴대폰번호"
@@ -32,25 +34,21 @@
         android:textSize="15dp"/>
 
     <EditText
+        android:id="@+id/email_join"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="아이디"
+        android:hint="이메일"
         android:layout_marginLeft="60dp"
         android:textSize="15dp"/>
 
     <EditText
+        android:id="@+id/password_join"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="비밀번호"
         android:layout_marginLeft="60dp"
         android:textSize="15dp"/>
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="비밀번호 확인"
-        android:layout_marginLeft="60dp"
-        android:textSize="15dp"/>
 
     <Button
         android:id="@+id/joinOkBtn"

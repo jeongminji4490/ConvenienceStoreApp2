@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "840719767211",
+    "project_id": "conveniencestoreapp",
+    "storage_bucket": "conveniencestoreapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840719767211:android:65066418c6cc49ba8fc9ee",
+        "android_client_info": {
+          "package_name": "com.example.conveniencestoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840719767211-f2kitr13bfd42g3qc3il9cc2dev1pb57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6BSQw1prk7XlcHe7CdprH9Ft_mdu6Pp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840719767211-f2kitr13bfd42g3qc3il9cc2dev1pb57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

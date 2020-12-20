@@ -18,12 +18,12 @@
         android:textSize="50dp"/>
 
     <EditText
-        android:id="@+id/EditID"
+        android:id="@+id/EditEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="75dp"
-        android:hint="ID                                          "
+        android:hint="email                                   "
         android:textSize="20dp"/>
 
     <EditText
