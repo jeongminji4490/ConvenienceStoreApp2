@@ -3,7 +3,7 @@
     package="com.example.conveniencestoreapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".GsItemActivity"></activity>
+        <activity android:name=".FindPasswordActivity"></activity>
+        <activity android:name=".GsItemActivity" />
         <activity android:name=".CsMenuActivity" />
         <activity android:name=".GsEventActivity" />
         <activity android:name=".MyInfoActivity" />

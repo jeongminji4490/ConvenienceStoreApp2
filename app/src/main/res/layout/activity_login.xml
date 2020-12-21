@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="75dp"
-        android:hint="email                                   "
+        android:hint="email                                    "
         android:textSize="20dp"/>
 
     <EditText
@@ -33,6 +33,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginLeft="75dp"
         android:textSize="20dp"
+        android:inputType="textPassword"
         android:hint="password                             "/>
 
     <Button
@@ -47,15 +48,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:layout_marginLeft="92dp"
+        android:layout_marginLeft="110dp"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/findID"
+            android:id="@+id/findPwd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
-            android:text="아이디/패스워드 찾기"/>
+            android:text="비밀번호 찾기"/>
 
         <TextView
             android:id="@+id/joinText1"
