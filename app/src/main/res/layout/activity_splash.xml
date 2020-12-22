@@ -4,78 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#0D9FB1"
     android:orientation="vertical"
     tools:context=".Splash">
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:orientation="vertical"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="70dp"
-        android:layout_height="wrap_content">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="편의점의"
             android:layout_marginTop="20dp"
-            android:textColor="@color/white"
             android:fontFamily="@font/gmarketsansttflight"
+            android:text="편의점의"
+            android:textColor="@color/white"
             android:textSize="20dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="모든 행사 제품과 후기들을"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white"
             android:fontFamily="@font/gmarketsansttflight"
-            android:textSize="20dp"/>
+            android:text="모든 행사 제품과 후기들을"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="한눈에!"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white"
             android:fontFamily="@font/gmarketsansttflight"
-            android:textSize="20dp"/>
+            android:text="한눈에!"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="편의점 커뮤니티"
         android:layout_gravity="right"
         android:layout_marginTop="120dp"
-        android:textColor="@color/white"
         android:layout_marginRight="10dp"
-        android:textSize="25dp"
-        android:fontFamily="@font/gmarketsansttfmedium"/>
+        android:fontFamily="@font/gmarketsansttfmedium"
+        android:text="편의점 커뮤니티"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
 
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:orientation="horizontal"
-    android:layout_gravity="right"
-    android:layout_height="wrap_content">
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/cashier"/>
-
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="5dp"
-        android:fontFamily="@font/gmarketsansttfmedium"
-        android:text="편알림"
-        android:textColor="@color/white"
-        android:textSize="80dp"/>
+        android:layout_gravity="right"
+        android:orientation="horizontal">
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/cashier" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/gmarketsansttfmedium"
+            android:text="편알림"
+            android:textColor="@color/white"
+            android:textSize="80dp" />
+
+    </LinearLayout>
 
 
 </LinearLayout>

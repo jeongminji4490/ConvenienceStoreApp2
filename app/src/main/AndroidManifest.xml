@@ -21,7 +21,6 @@
         </activity>
         <activity android:name=".FragmentMainActivity" />
         <activity android:name=".FindPasswordActivity" />
-        <activity android:name=".GsItemActivity" />
         <activity android:name=".CsMenuActivity" />
         <activity android:name=".GsEventActivity" />
         <activity android:name=".MyInfoActivity" />

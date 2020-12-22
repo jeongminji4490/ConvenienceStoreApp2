@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#2196F3"
+    android:background="#0D9FB1"
     tools:context=".MainActivity2">
 
     <androidx.appcompat.widget.Toolbar
@@ -73,7 +73,7 @@
             android:textSize="35dp"
             android:layout_height="wrap_content"
             android:text="이번달 행사"
-            android:backgroundTint="#2196F3"
+            android:backgroundTint="#0D9FB1"
             android:textColor="@color/white" />
 
     </LinearLayout>
@@ -95,7 +95,7 @@
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="9dp"
-            android:background="#2196F3"
+            android:background="#0D9FB1"
             android:textColor="@color/white"
             android:fontFamily="@font/gmarketsansttfmedium"
             android:textSize="35dp"
@@ -118,7 +118,7 @@
         <Button
             android:layout_width="180dp"
             android:layout_height="wrap_content"
-            android:background="#2196F3"
+            android:background="#0D9FB1"
             android:layout_marginTop="9dp"
             android:text="커뮤니티"
             android:fontFamily="@font/gmarketsansttfmedium"
