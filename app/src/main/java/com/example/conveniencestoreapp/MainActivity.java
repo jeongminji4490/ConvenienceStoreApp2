@@ -10,12 +10,14 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
 import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
-    Button eventBtn,itemBtn;
+    Button eventBtn,itemBtn,commuBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar=(Toolbar)findViewById(R.id.toolbar);
         eventBtn=(Button)findViewById(R.id.eventBtn);
         itemBtn=(Button)findViewById(R.id.itemBtn);
+        commuBtn=(Button)findViewById(R.id.commuBtn1);
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false); //프로젝트 타이틀 삭제
@@ -45,6 +48,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        commuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"커뮤니티는 회원 전용 메뉴입니다 8ㅅ8",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override

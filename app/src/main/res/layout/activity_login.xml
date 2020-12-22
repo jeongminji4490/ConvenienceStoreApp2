@@ -5,8 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="#2196F3"
     tools:context=".LoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/gmarketsansttfmedium"
+            android:textSize="20dp"
+            android:text="편알림"/>
+
+    </androidx.appcompat.widget.Toolbar>
 
     <TextView
         android:id="@+id/loginText"
@@ -14,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="로그인"
+        android:fontFamily="@font/gmarketsansttfmedium"
         android:layout_marginTop="150dp"
         android:textSize="50dp"/>
 

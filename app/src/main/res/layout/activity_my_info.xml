@@ -7,6 +7,21 @@
     android:orientation="vertical"
     tools:context=".MyInfoActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/gmarketsansttfmedium"
+            android:textSize="20dp"
+            android:text="편알림"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
     <ImageView
         android:layout_width="160dp"
         android:layout_height="210dp"
