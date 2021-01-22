@@ -2,10 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:icon="@drawable/ic_stat_login"
         android:id="@+id/navi_login"
         android:title="로그인" />
 
     <item
+        android:icon="@drawable/ic_stat_join"
         android:id="@+id/navi_join"
         android:title="회원가입"/>
 </menu>
