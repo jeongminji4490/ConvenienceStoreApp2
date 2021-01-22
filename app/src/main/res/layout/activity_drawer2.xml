@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="248dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:id="@+id/drawer2"
+    android:background="#FFFFFF">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navi_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/drawer_header2"
+        app:menu="@menu/navi_menu2"/>
+
+
+</LinearLayout>

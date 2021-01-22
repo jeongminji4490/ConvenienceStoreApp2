@@ -35,7 +35,7 @@
         android:layout_gravity="center"/>
 
     <ImageButton
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="55dp"
         android:id="@+id/gsBtn"
         android:layout_width="120dp"
         android:layout_height="90dp"

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="248dp"
+    android:background="#0D9FB1"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원님"
+        android:fontFamily="@font/gmarketsansttflight"
+        android:textColor="@color/white"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="어서오세요"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/gmarketsansttflight"/>
+
+</LinearLayout>

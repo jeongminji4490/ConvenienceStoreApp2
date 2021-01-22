@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#0D9FB1"
     tools:context=".MyInfoActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -22,27 +23,7 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <ImageView
-        android:layout_width="160dp"
-        android:layout_height="210dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="120dp"
-        android:src="@drawable/man_icon" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:layout_marginTop="25dp"
-        android:layout_gravity="center"
-        android:text="ID"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="17dp"
-        android:text="가입일"/>
 
 
 </LinearLayout>
