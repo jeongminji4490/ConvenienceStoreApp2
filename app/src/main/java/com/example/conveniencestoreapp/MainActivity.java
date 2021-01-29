@@ -25,7 +25,7 @@ import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
-    Button eventBtn, itemBtn, commuBtn;
+    Button eventBtn, commuBtn;
     DrawerLayout mDrawerLayout;
     ImageButton menuIcon;
     View drawView;
@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         eventBtn = (Button) findViewById(R.id.eventBtn);
-        itemBtn = (Button) findViewById(R.id.itemBtn);
         commuBtn = (Button) findViewById(R.id.commuBtn1);
         menuIcon = (ImageButton) findViewById(R.id.menuIcon);
         drawView = (View) findViewById(R.id.navi_view);
@@ -67,18 +66,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        itemBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CsMenuActivity.class);
-                startActivity(intent);
-            }
-        });
 
         commuBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "커뮤니티는 회원 전용 메뉴입니다 8ㅅ8", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(MainActivity.this,CommuActivity.class);
+                startActivity(intent);
             }
         });
 

@@ -84,7 +84,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="70dp"
             android:background="@color/white"
             android:layout_gravity="center"
             android:orientation="horizontal">
@@ -109,38 +109,12 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="17dp"
-            android:background="@color/white"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="60dp"
-                android:src="@drawable/kimbap"/>
-
-            <Button
-                android:id="@+id/itemBtn"
-                android:layout_width="180dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:layout_marginLeft="5dp"
-                android:background="#00ff0000"
-                android:textColor="#0D9FB1"
-                android:fontFamily="@font/gmarketsansttfmedium"
-                android:textSize="20dp"
-                android:text="행사 제품" />
-
-        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="17dp"
+            android:layout_marginTop="30dp"
             android:background="@color/white"
             android:layout_height="wrap_content">
 

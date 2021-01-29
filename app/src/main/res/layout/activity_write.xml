@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WriteActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="글 작성"
+            android:fontFamily="@font/gmarketsansttfmedium"
+            android:textColor="#0D9FB1"
+            android:textSize="40dp"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/EditTitle"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:hint="제목"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카테고리 선택"
+            android:fontFamily="@font/gmarketsansttfmedium"
+            android:textColor="#0D9FB1"
+            android:textSize="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dropDownWidth="100dp"
+            android:spinnerMode="dropdown"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/EditContent"
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:gravity="start"/>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/gmarketsansttfmedium"
+        android:textColor="#0D9FB1"
+        android:textSize="30dp"
+        android:text="등 록"/>
+
+</LinearLayout>

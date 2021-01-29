@@ -13,6 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
+        <activity android:name=".WriteActivity"></activity>
+        <activity android:name=".CommuActivity" />
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,15 +22,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FragmentMainActivity" />
         <activity android:name=".FindPasswordActivity" />
-        <activity android:name=".CsMenuActivity" />
         <activity android:name=".GsEventActivity" />
         <activity android:name=".MyInfoActivity" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".JoinActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
