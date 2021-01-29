@@ -10,6 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
+
+import com.google.firestore.v1.Write;
 
 public class WriteActivity extends AppCompatActivity {
 
@@ -42,12 +45,17 @@ public class WriteActivity extends AppCompatActivity {
                 content=EditContent.getText().toString().trim();
                 sp=spinner.getSelectedItem().toString();
 
-                intent.putExtra("Category",sp);
-                intent.putExtra("Title",title);
-                intent.putExtra("Content",content);
+                if (title.isEmpty() || content.isEmpty()){
+                    Toast.makeText(WriteActivity.this,"제목 또는 내용을 입력해주세요.",Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    intent.putExtra("Category",sp);
+                    intent.putExtra("Title",title);
+                    intent.putExtra("Content",content);
 
-                setResult(Activity.RESULT_OK,intent);
-                finish();
+                    setResult(Activity.RESULT_OK,intent);
+                    finish();
+                }
             }
         });
     }

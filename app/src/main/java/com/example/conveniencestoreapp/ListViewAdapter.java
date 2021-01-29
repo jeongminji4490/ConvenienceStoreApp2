@@ -13,7 +13,8 @@ import java.util.ArrayList;
 
 public class ListViewAdapter extends BaseAdapter {
 
-    private ArrayList<ListViewItem> arrayList=new ArrayList<>();
+
+    public ArrayList<ListViewItem> arrayList=new ArrayList<>();
 
     public ListViewAdapter(){}
     @Override
