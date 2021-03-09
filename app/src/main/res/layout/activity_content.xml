@@ -43,11 +43,44 @@
         android:textSize="18dp"
         android:layout_gravity="center"/>
 
-    <TextView
-        android:id="@+id/dateNow"
+    <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center"/>
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/EditComment"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="댓글"/>
+
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:text="입력"
+                android:fontFamily="@font/gmarketsansttfmedium"
+                android:background="#0D9FB1"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <ListView
+        android:id="@+id/comment_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>

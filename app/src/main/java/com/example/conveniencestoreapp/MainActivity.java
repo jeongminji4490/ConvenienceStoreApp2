@@ -25,7 +25,7 @@ import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
-    Button eventBtn, commuBtn;
+    Button eventBtn, commuBtn, itemBtn;
     DrawerLayout mDrawerLayout;
     ImageButton menuIcon;
     View drawView;
@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         eventBtn = (Button) findViewById(R.id.eventBtn);
         commuBtn = (Button) findViewById(R.id.commuBtn1);
+        itemBtn=(Button)findViewById(R.id.itemBtn1);
         menuIcon = (ImageButton) findViewById(R.id.menuIcon);
         drawView = (View) findViewById(R.id.navi_view);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -62,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, GsEventActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        itemBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,itemActivity.class);
                 startActivity(intent);
             }
         });

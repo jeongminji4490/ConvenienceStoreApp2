@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/gmarketsansttflight"
-            android:text="모든 행사 제품과 후기들을"
+            android:text="모든 제품 후기들을"
             android:textColor="@color/white"
             android:textSize="20dp" />
 

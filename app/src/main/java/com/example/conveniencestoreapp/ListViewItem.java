@@ -1,10 +1,14 @@
 package com.example.conveniencestoreapp;
 
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
+
 public class ListViewItem {
 
     String text1;
     String text2;
     String text3;
+//    Drawable image1;
 
     public String getText1() {
         return text1;
@@ -29,6 +33,5 @@ public class ListViewItem {
     public void setText3(String text3) {
         this.text3 = text3;
     }
-
 
 }
